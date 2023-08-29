@@ -1,0 +1,20 @@
+@media screen and (max-width:900px){
+    .two{
+        /* flex: 1; */
+        height: 60px;
+        width: 200px;
+        display: none;
+        align-items: center;
+        justify-content: center;
+     }
+
+     .header{
+        background: url(./image/barner.jpg);
+        padding-top: 100px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+        
+         }
+}

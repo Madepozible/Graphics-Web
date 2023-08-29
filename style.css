@@ -1,0 +1,513 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'RocknRoll One', sans-serif;
+font-family: 'Teko', sans-serif;
+}
+
+body{
+    padding-bottom: 100px;
+}
+
+.sectionNav{
+     display: flex;
+     margin: 25px;
+     background-color: #333;
+     color: #fff;
+     position: fixed;
+     left: 0;
+     right: 0;
+     z-index: 99;
+}
+ .one{
+    /* flex: 1; */
+    width: 150px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .two{
+    flex: 1;
+    height: 60px;
+ }
+ .three{
+    /* flex: 1; */
+    height: 60px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .logoImg{
+    width: 50px;
+ }
+
+ .linkOne{
+    text-decoration: none;
+    color: #fff;
+ }
+
+ .btnOne{
+    padding: 12px;
+    background-color: rgb(202, 133, 5);
+    border: none;
+    font-weight: bold;
+ }
+
+ .navBar .order{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 20px;
+ }
+
+ .listIems{
+    list-style: none;
+ }
+
+ .header{
+background: url(./image/two.jpeg);
+padding-top: 100px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 500px;
+
+ }
+
+ .shadeHeader{
+    background-color: #000000ab;
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 70px;
+ }
+
+ .paraHome{
+    text-align: center;
+    color: #fff;
+    /* margin-bottom: 10px; */
+ }
+
+ .headHome{
+    color: #fff;
+text-align: center;
+font-size: 45px;
+margin-top: 20px;
+ }
+
+ .buttonHome{
+    background-color: rgb(202, 133, 5);
+    width: 200px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    margin-top: 170px;
+ }
+
+ .linkHome{
+    color: #fff;
+    text-decoration: none;
+ }
+
+ /* About Secton */
+ .containAbout{
+    background-color: #333;
+    width: 100%;
+    height: 100%;
+ }
+
+ .aboutCover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+ }
+ .aboutCoverOne{
+   width: 300px;
+   height: 100%;    
+   margin-top: 30px; 
+   margin-bottom: 30px;
+ }
+ .aboutCoverTwo{
+    width: 300px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  gap: 10px;
+  margin-bottom: 30px;
+ }
+ .aboutCoverThree{
+    width: 300px;
+    height: 100%;
+ }
+
+ .coverOne{
+    color: rgb(202, 133, 5);;
+    font-size: 15px;
+    margin-bottom: 15px;
+ }
+
+ .coverTwo{
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 10px;
+ }
+
+ .coverThree{
+ color: #d4d4d6;
+ font-size: 13px;
+ }
+ 
+ .line{
+    background-color: rgb(202, 133, 5);
+width: 50px;
+height: 2px;
+margin-bottom: 20px;
+ }
+
+
+ .imageAboutOne{
+    width: 150px;
+ }
+
+ .threePhone{
+    color: rgb(202, 133, 5);
+    margin-bottom: 10px;
+ }
+
+ .threeWord{
+    font-weight: bold;
+    color: #fff;
+    font-size: 17px;
+    margin-bottom: 10px;
+ }
+
+ .hourOne{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   margin-bottom: 5px;
+ }
+
+ .mon{
+    color: #d4d4d6;
+    font-size: 15px;
+ }
+
+ .timeOne{
+    font-size: 15px;
+    color: rgb(202, 133, 5);
+ }
+
+ .linkInfo{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+ }
+
+ .infoBtn{
+    width: 140px;
+    height: 30px;
+    background-color: rgb(202, 133, 5);
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+ }
+
+
+ /* SERVICE PAGE */
+ .servicePage{
+    background-color: #1a1919;
+ }
+ .serviceDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* background-color: #141414; */
+ }
+ .serviceOne{
+    width: 300px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 25px;
+ }
+ .serviceTwo{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 25px;
+ }
+ .serviceThree{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 25px;
+ }
+ .serviceFour{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 25px;
+ }
+
+ .textOne{
+    text-align: center;
+    color: rgb(202, 133, 5);
+padding-top: 20px;
+font-size: 13px;
+margin-bottom: 10px;
+ }
+
+ .textTwo{
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 7px;
+ }
+
+ .line-one{
+    background-color: rgb(202, 133, 5);
+width: 70px;
+height: 2px;
+margin-bottom: 20px;
+ }
+
+ .textDivSer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
+
+ .serviceImg{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 7px solid #333;
+ }
+
+ .serParaOne{
+    font-size: 13px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 10px;
+ }
+
+ .paraLinkSer{
+    font-size: 12px;
+ }
+
+ .linkPara{
+    color: #fff;
+    font-weight: bold;
+ }
+
+ .imgCover{
+    position: absolute;
+    background-color: #0000009f;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    top:5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ .shave{
+    text-align: center;
+ color: #fff;
+ font-weight: bold;
+ font-size: 15px;
+ }
+
+ /* Images page */
+ 
+ .imgSec{
+    background-color: #1a1919;
+    width: 100%;
+ }
+
+ .imgdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
+
+ .imggal{
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    padding-top: 5px;
+ }
+
+ .imgGaltwo{
+    width: 150px;
+    position: absolute;
+    left: 320px;
+ }
+
+ .galSpan{
+    background-color: #00000083;
+    width: 250px;
+    padding: 20px;
+    position: absolute;
+    right: 230px;
+ }
+
+ .galPara{
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 10px;
+ }
+
+ .galParaTwo{
+    color: rgb(202, 133, 5);
+    font-size: 11px;
+    margin-bottom: 10px;
+ }
+
+ .galparaThree{
+    font-size: 10px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+ }
+
+
+ /* Contact Page */
+ .contactSec{
+    background-color: #333;
+    width: 100%;
+ }
+
+ .contactDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+ }
+
+ .contactOne{
+    width: 500px;
+ }
+ .contactTwo{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .toolsImg{
+    width: 100%;
+    margin-bottom: 30px;
+ }
+
+ .inputOne{
+    width: 200px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 2px solid rgb(202, 133, 5);
+ }
+
+  .inputOne::placeholder{
+    padding-left: 15px;
+ }
+
+ .formOne{
+    margin-bottom: 25px;
+ }
+
+ .formTwo{
+   margin-bottom: 20px;
+ }
+
+ .textArea{
+   background-color: transparent;
+   border: none;
+   border-bottom: 2px solid rgb(202, 133, 5);
+   outline: none;
+   color: #fff;
+   padding-left: 20px;
+   margin-bottom: 20px;
+}
+
+.submitDiv{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.submit{
+   width: 420px;
+   height: 30px;
+   background-color: rgb(202, 133, 5);
+   color: #fff;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   font-size: 15px;
+   font-weight: bold;
+}
+
+/* Hair cut model */
+.modelSec{
+   width: 100%;
+   height: 100%;
+   background-color: #292828;
+   padding-bottom: 30px;
+}
+
+.paraModel{
+   color: rgb(202, 133, 5);
+   text-align: center;
+   font-size: 11px;
+   padding-top: 10px;
+   margin-bottom: 10px;
+}
+
+.modelDiv-one{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.headModel{
+   color: #fff;
+   font-size: 20px;
+   margin-bottom: 10px;
+}
+
+.modelLine{
+   width: 70px;
+   height: 2px;
+   background-color: rgb(202, 133, 5);
+}
